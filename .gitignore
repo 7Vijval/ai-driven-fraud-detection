@@ -7,10 +7,10 @@ venv/
 env/
 .venv/
 
-# HuggingFace & ML
+# ML / AI folders
 .cache/
 datasets/
-models/
+model/      # ✅ FIXED (was models/)
 checkpoints/
 
 # Model files
@@ -18,6 +18,8 @@ checkpoints/
 *.bin
 *.h5
 *.ckpt
+*.pkl
+*.safetensors
 
 # Large data
 *.csv
