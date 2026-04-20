@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# HuggingFace & ML
+.cache/
+datasets/
+models/
+checkpoints/
+
+# Model files
+*.pt
+*.bin
+*.h5
+*.ckpt
+
+# Large data
+*.csv
+*.json
+*.zip
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
